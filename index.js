@@ -21,6 +21,6 @@ app.get('/chai',(req,res)=>{
     res.send('Chai aur code')
 })
 
-app.listen(process.env.POrt, () => {
+app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
