@@ -1,0 +1,50 @@
+Note:- In backend we have to took very professional approach to develope
+
+Backend Development have major 2 components.
+
+|
+|--A programming language (java, js, php, python, golang, c++, etc) on a framework.
+|--A database (Mongo, MySQL, Postgres, sqlite) on ORM ODM.
+
+
+Browser<------>| |<-----> Backend<-------
+               | |                      |
+               |A|                      -----> DataBase    Another continent
+               |P|                      -------^
+               |I|                      |
+Mobile<------->| |<------>backend<-------              
+
+-A javascript based backend we deal with mostly three things 
+-1. Data         
+-2. File(vides, images, pdfs, etc)           
+-3. Third Party(APIs)
+
+
+-A JS Runtime: Nodejs/Demo/Bun
+-Files which are generally found on backend code
+-1. libraries:- Package.json   
+-2. common files:- .env
+-3. some Other files (Readme, git, lint, prettier, etc)
+
+-for js we have to learn two libraries
+|
+|---express(for routing server)
+|---Mongoose(for database)
+
+there are many things but these are major one for js.
+
+Directory Structure
+
+----> src
+
+-->index is the entry point of our application
+
+index(DB connect)                                          App(config, cookie, urlendcode)                                     constants(enums, DB-name)
+
+-DB(folder:contain db code,db call)                                
+-Models(folder:contains schema/model of DB)
+-controllers(folder:methods or functions)
+-Routes(folder: define & handle routes)
+-Middle wares
+-utils(folder:contains reusable code snippets)
+-more(depends)
