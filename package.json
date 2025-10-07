@@ -11,5 +11,8 @@
     "chai"
   ],
   "author": "Rajat Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
