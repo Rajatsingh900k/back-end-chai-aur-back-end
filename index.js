@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express') //require module syntax
 // or import express from 'express'
 const app = express();
@@ -20,6 +21,6 @@ app.get('/chai',(req,res)=>{
     res.send('Chai aur code')
 })
 
-app.listen(port, () => {
+app.listen(process.env.POrt, () => {
   console.log(`Example app listening on port ${port}`)
 })
