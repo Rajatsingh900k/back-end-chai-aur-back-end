@@ -31,25 +31,6 @@ This repository contains the complete backend development course where we learn 
 - **Environment Variables**: dotenv
 - **API Testing**: Postman
 
-## 📁 Project Structure
-
-\`\`\`
-backend-chai-aur-code/
-├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middlewares/
-│   ├── utils/
-│   ├── db/
-│   └── app.js
-├── public/
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-\`\`\`
-
 ## 🚀 Getting Started
 
 ### Prerequisites
